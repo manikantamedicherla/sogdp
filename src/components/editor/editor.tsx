@@ -29,7 +29,7 @@ const EditorFC: React.FC = () => {
         loadImage(imgSrc, { x, y })
     }
     useEffect(drawStack, [width, aspect])
-    const btnProps = { title: 'Feacture not available', style: { cursor: 'not-allowed' } }
+    const btnProps = { title: 'Feature not available', style: { cursor: 'not-allowed' } }
     return (
         <div className='editor-wrap'>
 
