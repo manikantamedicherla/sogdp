@@ -1,0 +1,26 @@
+.image-panel-wrapper {
+    background-color: #293039;
+}
+.image-panel-menu-bar{
+    color: #aaabad;
+}
+.image-panel-menu-bar h2{
+    padding: 0;
+    margin: 2px;
+}
+.image-grid-container {
+    display: flex; 
+    flex-wrap: wrap;
+    width: 30vw; 
+    min-width: 300px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.img-tag {
+   position: relative;
+   margin: 2px;
+   border-radius: 4px;
+   flex-grow: 1;
+   cursor: pointer;
+}
